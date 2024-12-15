@@ -135,6 +135,6 @@ columns = [
 df = pd.DataFrame(transactions, columns=columns)
 
 # Save to a CSV file
-df.to_csv("random_transactions.csv", index=False, encoding="utf-8")
+df.to_csv("output_files/random_transactions.csv", index=False, encoding="utf-8")
 
-print("Random transaction data generated and saved to 'random_transactions.csv'.")
+print("Random transaction data generated and saved to 'output_files/random_transactions.csv'.")
